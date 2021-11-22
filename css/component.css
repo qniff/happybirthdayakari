@@ -113,8 +113,8 @@
 	position: relative;
 	display: inline-block;
 	margin: 0 5px;
-	width: 30px;
-	height: 30px;
+	width: 60px;
+	height: 60px;
 	cursor: pointer;
 	background: #aaa;
 	border-radius: 50%;
@@ -123,6 +123,14 @@
 	transition: transform 0.6s ease-in-out, background 0.3s;
 	-webkit-transform: scale(0.48);
 	transform: scale(0.48);
+}
+
+
+@media screen and (max-width: 45em) {
+	.photostack nav span {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 .photostack nav span:last-child {
