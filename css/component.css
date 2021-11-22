@@ -126,7 +126,9 @@
 }
 
 
-@media screen and (max-width: 45em) {
+@media screen 
+and (device-width: 375px) 
+and (device-height: 812px)  {
 	.photostack nav span {
 		width: 40px;
 		height: 40px;
